@@ -3,26 +3,26 @@ import { Link } from "react-router-dom";
 import "./Start.css";
 
 function Logo() {
-    return <img className="logo" src="/img/dukdam.png" alt="dukdam"></img>;
+    return <img className="logo" src="/img/dukdam.svg" alt="dukdam"></img>;
 }
 function Btn1() {
     return (
         <Link to="/dukdam2023" className="btn1">
-            <img src="/img/2023btn.png" alt="2023btn"></img>
+            <img src="/img/2023btn.svg" alt="2023btn"></img>
         </Link>
     );
 }
 function Btn2() {
     return (
         <Link to="/dukdam2024" className="btn2">
-            <img src="/img/2024btn.png" alt="2024btn"></img>
+            <img src="/img/2024btn.svg" alt="2024btn"></img>
         </Link>
     );
 }
 function Btn3() {
     return (
         <Link className="btn3">
-            <img src="/img/writeBtn.png" alt="writeBtn"></img>
+            <img src="/img/writeBtn.svg" alt="writeBtn"></img>
         </Link>
     );
 }
