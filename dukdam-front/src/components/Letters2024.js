@@ -3,13 +3,13 @@ import "./Letters2024.css";
 import { Link } from "react-router-dom";
 
 function Title() {
-    return <img className="title" src="/img/start2024.png" alt="title"></img>;
+    return <img className="title" src="/img/start2024.svg" alt="title"></img>;
 }
 
 function Letter() {
     return (
         <Link className="letter">
-            <img className="letterImg" src="/img/letter.png"></img>
+            <img className="letterImg" src="/img/letter.svg"></img>
             <p className="letterUser">User</p>
         </Link>
     );
@@ -18,7 +18,7 @@ function Letter() {
 function AddBtn() {
     return (
         <Link className="addDukdam">
-            <img src="/img/add.png"></img>
+            <img src="/img/add.svg"></img>
         </Link>
     );
 }
